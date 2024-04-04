@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+svg {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+}
+a {
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+  background-color: #e5e5e5;
+}
+/* header */
+header {
+  width: 100%;
+  background-image: url(/image/hgghh-min.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+  overflow: hidden;
+}
+.header1 {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 4rem;
+}
+.header {
+  max-width: 45%;
+  padding: 8rem 4rem 8rem 2rem;
+  border: 3px solid white;
+}
+.header h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1.3rem;
+}
+.header p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.h {
+  max-width: 50%;
+  border: 3px solid white;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.8rem 2rem;
+}
+/* end of header */
+
+/* main */
+main {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+/* container */
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+.hh {
+  /* width: 100%; */
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  padding-top: 2rem;
+}
+/* start of grid column */
+.grid1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding: 3rem;
+}
+.grid {
+  width: 100%;
+  padding: 0rem 0 2rem 0;
+  box-shadow: 1px gray;
+  background-color: white;
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #c1b688;
+}
+.t {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.grid :nth-child(4) {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 100;
+  font-style: italic;
+  padding: 0 2rem 0 2rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.icon {
+  width: fit-content;
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1b688;
+  border: 1px solid white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* end of grid column */
+
+/* start of image container */
+.decorating1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* padding: 4rem; */
+}
+.decorating {
+  max-width: 50%;
+  padding: 3rem 2rem;
+  border: 1px solid white;
+  box-shadow: 0 0 15px gray;
+  background-color: white;
+}
+.decorating .d {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+.decorating :nth-child(2) {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.learn p {
+  border: 1px solid #c1b688;
+  width: 25%;
+  text-align: center;
+  background-color: #c1b688;
+  padding: 0.5rem 0;
+  border-radius: 5rem;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.decorating1 {
+  width: 100%;
+  position: absolute;
+  top: 3rem;
+  z-index: 999;
+}
+.img1 > img {
+  width: 30%;
+  height: 50%;
+}
+.img1 {
+  width: 100%;
+  position: absolute;
+  top: 11rem;
+  right: -4rem;
+}
+.img2 > img {
+  width: 55%;
+  height: 30%;
+}
+.img2 {
+  width: 100%;
+  position: absolute;
+  right: -32rem;
+  top: 19rem;
+}
+.img3 > img {
+  width: 38%;
+  height: 20%;
+}
+.img3 {
+  width: 100%;
+  position: absolute;
+  top: 43rem;
+  right: -17rem;
+  z-index: 999;
+}
+.img4 > img {
+  width: 45%;
+  height: 30%;
+}
+.img4 {
+  width: 100%;
+  position: absolute;
+  top: 54rem;
+  right: -40rem;
+}
+.texted {
+  width: 100%;
+  position: absolute;
+  top: 72rem;
+  right: -4rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+}
+.empty1 {
+  width: 1rem;
+  height: 40vh;
+  background-color: #666666;
+}
+.texted1 {
+  max-width: 35%;
+  line-height: 1.5rem;
+  font-size: 16px;
+  font-weight: 800;
+  color: #909090;
+}
+/* end of image-container */
