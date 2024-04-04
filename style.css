@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: #e5e5e5;
 }
 /*  */
@@ -163,62 +163,66 @@ main {
   border-radius: 5rem;
 }
 .image-container {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   position: relative;
 }
 .decorating1 {
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
   top: 3rem;
   z-index: 999;
 }
-.img1 > img {
-  width: 30%;
-  height: 50%;
-}
+
 .img1 {
-  width: 100%;
+  width: 25rem;
   position: absolute;
-  top: 11rem;
-  right: -4rem;
+  top: 10rem;
+  left: 4rem;
+}
+.img1 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
+  width: 40rem;
+  position: absolute;
+  left: 35rem;
+  top: 20rem;
 }
 .img2 > img {
-  width: 55%;
-  height: 30%;
-}
-.img2 {
   width: 100%;
-  position: absolute;
-  right: -32rem;
-  top: 19rem;
+  height: 100%;
 }
-.img3 > img {
-  width: 38%;
-  height: 20%;
-}
+
 .img3 {
-  width: 100%;
+  width: 30rem;
   position: absolute;
-  top: 43rem;
-  right: -17rem;
+  top: 42rem;
+  left: 19rem;
   z-index: 999;
 }
-.img4 > img {
-  width: 45%;
-  height: 30%;
-}
-.img4 {
+.img3 > img {
   width: 100%;
+  height: 100%;
+}
+
+.img4 {
+  width: 30rem;
   position: absolute;
-  top: 54rem;
-  right: -40rem;
+  top: 58rem;
+  left: 45rem;
+}
+.img4 > img {
+  width: 100%;
+  height: 100%;
 }
 .texted {
-  width: 100%;
+  width: 30rem;
   position: absolute;
   top: 72rem;
-  right: -4rem;
+  left: 4rem;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -230,7 +234,7 @@ main {
   background-color: #666666;
 }
 .texted1 {
-  max-width: 35%;
+  max-width: 90rem;
   line-height: 1.5rem;
   font-size: 16px;
   font-weight: 800;
