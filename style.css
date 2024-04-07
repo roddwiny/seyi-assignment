@@ -38,6 +38,15 @@ header {
   max-width: 45%;
   padding: 8rem 4rem 8rem 2rem;
   border: 3px solid white;
+  animation: rrr 3s linear;
+}
+@keyframes rrr {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 .header h1 {
   font-size: 60px;
@@ -67,13 +76,22 @@ main {
 .container {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .hh {
-  /* width: 100%; */
   text-align: center;
   font-size: 50px;
   font-weight: 100;
   padding-top: 2rem;
+  animation: rrrv 2s ease-out backwards;
+  animation-delay: 5s;
+}
+@keyframes rrrv {
+  0% {
+  }
+  70% {
+    transform: translatey(-700px);
+  }
 }
 /* start of grid column */
 .grid1 {
@@ -83,6 +101,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   padding: 3rem;
+  /* margin-top: 4rem; */
 }
 .grid {
   width: 100%;
@@ -124,11 +143,20 @@ main {
   justify-content: center;
   background-color: #c1b688;
   border: 1px solid white;
+  animation: fff 1s linear;
+  transition: 1s;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 /* end of grid column */
-
+@keyframes fff {
+  from {
+    transform: translateX(100%) scale(0.5 );
+  }
+  to {
+    transform: translateX(0%) scale(1) rotate(360deg);
+  }
+}
 /* start of image container */
 .image-container {
   width: 100%;
@@ -177,6 +205,15 @@ main {
   position: absolute;
   top: 10rem;
   left: 4rem;
+  animation: rrrt 2s linear;
+}
+@keyframes rrrt {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 .img1 > img {
   width: 100%;
@@ -188,7 +225,9 @@ main {
   position: absolute;
   left: 35rem;
   top: 20rem;
+  animation: rrrt 2s linear;
 }
+
 .img2 > img {
   width: 100%;
   height: 100%;
@@ -239,48 +278,50 @@ main {
   color: #909090;
 }
 /* end of image-container */
-section{
+section {
   width: 100%;
+  height: 145vh;
+  background: white;
 }
-.real-time{
+.real-time {
   width: 100%;
   position: relative;
 }
-.jimg{
+.jimg {
   width: 40rem;
   position: absolute;
   top: 5rem;
   left: 8rem;
   z-index: 999;
 }
-.jimg>img{
+.jimg > img {
   width: 100%;
   height: 100%;
 }
-.real{
+.real {
   width: 30rem;
   position: absolute;
   top: 9rem;
   left: 41rem;
   z-index: 999;
 }
-.real1{
+.real1 {
   max-width: 100%;
   border: 1px solid white;
   background: white;
   padding: 3rem 2rem;
 }
-.re{
+.re {
   font-size: 60px;
   margin-bottom: 1.5rem;
 }
-.real1 :nth-child(2){
+.real1 :nth-child(2) {
   font-size: 25px;
   color: gray;
   line-height: 1.8rem;
   margin-bottom: 2rem;
 }
-.learnt{
+.learnt {
   border: 1px solid #c1b688;
   width: 25%;
   text-align: center;
@@ -288,32 +329,32 @@ section{
   padding: 1rem 0;
   border-radius: 5rem;
 }
-.rempty{
+.rempty {
   position: absolute;
   width: 15rem;
   height: 15rem;
-  background-color: #E6E1CB;
+  background-color: #e6e1cb;
   border-radius: 15rem;
   top: 3rem;
   left: 62rem;
 }
-.rempty1{
+.rempty1 {
   position: absolute;
   width: 40rem;
   height: 20rem;
-  background-color: #C1B688;
+  background-color: #c1b688;
   top: 30rem;
   left: 35rem;
 }
-.rempty3{
+.rempty3 {
   position: absolute;
-  fill: #C1B688;
+  fill: #c1b688;
   top: 38rem;
   z-index: 999;
   left: -10rem;
 }
-.rempty3>svg{
+.rempty3 > svg {
   width: 40rem;
   height: 40vh;
-  fill: #C1B688;
+  fill: #c1b688;
 }
