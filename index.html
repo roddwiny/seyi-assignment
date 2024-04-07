@@ -12,13 +12,14 @@
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>seyi assignment</title>
   </head>
   <body>
     <!-- header -->
     <header>
       <div class="header1">
-        <div class="header">
+        <div class="header" data-aos="fade-left">
           <h1>Interior Renovation</h1>
           <p>
             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -36,16 +37,16 @@
       <!-- container -->
       <div class="container">
         <!-- h -->
-        <div class="hh">
+        <div class="hh" data-aos="fade-down">
           <p>We design beautiful hotels</p>
         </div>
         <!-- end of h -->
 
         <!-- grid -->
-        <div class="grid1">
+        <div class="grid1" data-aos="fade-up">
           <div class="grid">
             <div class="empty"></div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-left">
               <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-078c">
                 <g>
                   <path
@@ -65,7 +66,7 @@
           </div>
           <div class="grid">
             <div class="empty"></div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-left">
               <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-c30b">
                 <g>
                   <g>
@@ -114,7 +115,7 @@
           </div>
           <div class="grid">
             <div class="empty"></div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-left">
               <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-46d3">
                 <g>
                   <path
@@ -131,7 +132,7 @@
           </div>
           <div class="grid">
             <div class="empty"></div>
-            <div class="icon">
+            <div class="icon" data-aos="fade-left">
               <img
                 src="/image/download (1).png"
                 width="40px"
@@ -151,7 +152,7 @@
         <!-- image-container -->
         <div class="image-container">
           <!-- decorating -->
-          <div class="decorating1">
+          <div class="decorating1" data-aos="slide-down" data-aos-duration="2000">
             <div class="decorating">
               <p class="d">Decorating Ideas</p>
               <p>
@@ -167,25 +168,25 @@
           </div>
           <!-- end of decorating -->
           <!-- img1 -->
-          <div class="img1">
+          <div class="img1" data-aos="fade-right" data-aos-duration="2000">
             <img src="/image/bnbnbnbnnb.jpg" alt="" />
           </div>
           <!-- end of img1 -->
 
           <!-- img2 -->
-          <div class="img2">
+          <div class="img2" data-aos="fade-left" data-aos-duration="2000">
             <img src="/image/vbvbvbvbb.jpg" alt="" />
           </div>
           <!-- end of img2 -->
 
           <!-- img3 -->
-          <div class="img3">
+          <div class="img3" data-aos="fade-up" data-aos-duration="1000">
             <img src="/image/-min.jpg" alt="" />
           </div>
           <!-- end of img3 -->
 
           <!-- img4 -->
-          <div class="img4">
+          <div class="img4" data-aos="fade-left" data-aos-duration="2000">
             <img src="/image/vvvvvvvvvvvvv-min.jpg" alt="" />
           </div>
           <!-- end of img4 -->
@@ -241,7 +242,7 @@
               id="svg-db78"
             >
               <path
-              d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110
+                d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110
               C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2
               l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5
               c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z
@@ -261,5 +262,9 @@
     <!-- footer -->
     <footer></footer>
     <!-- end of footer -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

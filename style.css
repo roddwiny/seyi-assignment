@@ -194,7 +194,6 @@ main {
 }
 
 .decorating1 {
-  /* width: 100%; */
   position: absolute;
   top: 3rem;
   z-index: 999;
@@ -205,7 +204,7 @@ main {
   position: absolute;
   top: 10rem;
   left: 4rem;
-  animation: rrrt 2s linear;
+  /* animation: rrrt 2s linear; */
 }
 @keyframes rrrt {
   from {
@@ -225,7 +224,7 @@ main {
   position: absolute;
   left: 35rem;
   top: 20rem;
-  animation: rrrt 2s linear;
+  /* animation: rrrt 2s linear; */
 }
 
 .img2 > img {
