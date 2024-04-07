@@ -38,7 +38,7 @@ header {
   max-width: 45%;
   padding: 8rem 4rem 8rem 2rem;
   border: 3px solid white;
-  animation: rrr 3s linear;
+  /* animation: rrr 3s linear; */
 }
 @keyframes rrr {
   from {
@@ -65,6 +65,11 @@ header {
   border-radius: 5rem;
   padding: 0.8rem 2rem;
 }
+.h:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #c1b688;
+}
 /* end of header */
 
 /* main */
@@ -83,16 +88,8 @@ main {
   font-size: 50px;
   font-weight: 100;
   padding-top: 2rem;
-  animation: rrrv 2s ease-out backwards;
-  animation-delay: 5s;
 }
-@keyframes rrrv {
-  0% {
-  }
-  70% {
-    transform: translatey(-700px);
-  }
-}
+
 /* start of grid column */
 .grid1 {
   width: 100%;
@@ -151,7 +148,7 @@ main {
 /* end of grid column */
 @keyframes fff {
   from {
-    transform: translateX(100%) scale(0.5 );
+    transform: translateX(100%) scale(0.5);
   }
   to {
     transform: translateX(0%) scale(1) rotate(360deg);
@@ -185,12 +182,17 @@ main {
   margin-bottom: 2rem;
 }
 .learn p {
-  border: 1px solid #c1b688;
+  border: 2px solid #c1b688;
   width: 25%;
   text-align: center;
   background-color: #c1b688;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   border-radius: 5rem;
+  color: white;
+}
+.learn p:hover {
+  background-color: white;
+  color: #c1b688;
 }
 
 .decorating1 {
@@ -277,6 +279,8 @@ main {
   color: #909090;
 }
 /* end of image-container */
+
+/* section */
 section {
   width: 100%;
   height: 145vh;
@@ -320,14 +324,20 @@ section {
   line-height: 1.8rem;
   margin-bottom: 2rem;
 }
-.learnt {
-  border: 1px solid #c1b688;
-  width: 25%;
+.learnt p {
+  border: 2px solid #c1b688;
+  width: 35%;
   text-align: center;
   background-color: #c1b688;
   padding: 1rem 0;
   border-radius: 5rem;
+  color: white;
 }
+.learnt p:hover {
+  background-color: white;
+  color: #c1b688;
+}
+
 .rempty {
   position: absolute;
   width: 15rem;
@@ -357,3 +367,106 @@ section {
   height: 40vh;
   fill: #c1b688;
 }
+/* end of section */
+
+/* selection-container */
+.section-container {
+  width: 100%;
+}
+.driven {
+  width: 100%;
+  height: 70vh;
+}
+.we {
+  text-align: center;
+}
+.we > p {
+  margin: 3rem 0 1rem 0;
+  font-size: 50px;
+  font-weight: 100;
+}
+.ven {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ven > p {
+  font-size: 18px;
+  max-width: 50%;
+  line-height: 1.5rem;
+}
+.concept-container {
+  position: relative;
+  padding-left: 2rem;
+  /* padding-right: 4rem; */
+  width: 100%;
+  height: 50vh;
+  background-color: #c1b688;
+}
+.concept1 {
+  position: absolute;
+  top: -13rem;
+  max-width: 30%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.concept-image {
+  width: 100%;
+  height: 100%;
+}
+.concept-image > img {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+.cp {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.concept1 p {
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.mo {
+  margin-bottom: 5rem;
+  text-decoration: underline;
+}
+.mo > a {
+  color: black;
+}
+.concept2 {
+  position: absolute;
+  top: -5rem;
+  left: 27.5rem;
+  max-width: 30%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.concept2 p {
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.concept3 {
+  position: absolute;
+  left: 53rem;
+  top: 2rem;
+  max-width: 30%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.concept3 p {
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+/* end of selection-container */
