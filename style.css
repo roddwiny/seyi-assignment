@@ -15,7 +15,6 @@ a {
   text-decoration: none;
 }
 body {
-  /* overflow-x: hidden; */
   background-color: #e5e5e5;
 }
 /*  */
@@ -39,14 +38,6 @@ header {
   padding: 8rem 4rem 8rem 2rem;
   border: 3px solid white;
   /* animation: rrr 3s linear; */
-}
-@keyframes rrr {
-  from {
-    transform: translateX(300%);
-  }
-  to {
-    transform: translateX(0%);
-  }
 }
 .header h1 {
   font-size: 60px;
@@ -92,7 +83,7 @@ main {
 
 /* start of grid column */
 .grid1 {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -101,8 +92,8 @@ main {
   /* margin-top: 4rem; */
 }
 .grid {
-  width: 100%;
-  padding: 0rem 0 2rem 0;
+  /* width: 100%; */
+  /* padding: 0rem 0 2rem 0; */
   box-shadow: 1px gray;
   background-color: white;
   text-align: center;
@@ -202,27 +193,19 @@ main {
 }
 
 .img1 {
-  width: 25rem;
+  width: 30%;
   position: absolute;
   top: 10rem;
   left: 4rem;
-  /* animation: rrrt 2s linear; */
 }
-@keyframes rrrt {
-  from {
-    transform: translateX(-150%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
+
 .img1 > img {
   width: 100%;
   height: 100%;
 }
 
 .img2 {
-  width: 40rem;
+  width: 50%;
   position: absolute;
   left: 35rem;
   top: 20rem;
@@ -235,7 +218,7 @@ main {
 }
 
 .img3 {
-  width: 30rem;
+  width: 40%;
   position: absolute;
   top: 42rem;
   left: 19rem;
@@ -247,7 +230,7 @@ main {
 }
 
 .img4 {
-  width: 30rem;
+  width: 38%;
   position: absolute;
   top: 58rem;
   left: 45rem;
@@ -257,7 +240,7 @@ main {
   height: 100%;
 }
 .texted {
-  width: 30rem;
+  width: 30%;
   position: absolute;
   top: 72rem;
   left: 4rem;
@@ -272,7 +255,7 @@ main {
   background-color: #666666;
 }
 .texted1 {
-  max-width: 90rem;
+  max-width: 90%;
   line-height: 1.5rem;
   font-size: 16px;
   font-weight: 800;
@@ -289,6 +272,7 @@ section {
 .real-time {
   width: 100%;
   position: relative;
+  padding: 2rem;
 }
 .jimg {
   width: 40rem;
@@ -398,7 +382,6 @@ section {
 .concept-container {
   position: relative;
   padding-left: 2rem;
-  /* padding-right: 4rem; */
   width: 100%;
   height: 50vh;
   background-color: #c1b688;
@@ -470,3 +453,307 @@ section {
   line-height: 2rem;
 }
 /* end of selection-container */
+
+/* responsiveness */
+@media (max-width: 1225px) {
+  .rempty {
+    left: 60rem;
+  }
+  .h {
+    max-width: 60%;
+  }
+  .learn p {
+    width: 40%;
+  }
+}
+@media (max-width: 1203px) {
+  header {
+    width: 100%;
+    background-image: url(/image/hgghh-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+    overflow: hidden;
+  }
+  .h {
+    max-width: 60%;
+  }
+  .decorating {
+    max-width: 40%;
+  }
+  .img1 {
+    width: 22rem;
+    left: 8rem;
+  }
+  .img2 {
+    width: 35rem;
+    left: 32rem;
+  }
+  .img3 {
+    width: 27rem;
+    top: 39rem;
+  }
+  .img4 {
+    width: 21rem;
+    height: 25rem;
+    left: 46rem;
+  }
+  .texted {
+    left: 8rem;
+    width: 60%;
+  }
+  .jimg {
+    width: 40vw;
+    height: 90vh;
+  }
+  .real {
+    left: 31rem;
+  }
+  .rempty {
+    left: 52rem;
+  }
+  .rempty1 {
+    left: 25rem;
+    top: 28rem;
+  }
+  .rempty3 {
+    top: 30rem;
+    left: -8rem;
+  }
+  .concept1 {
+    max-width: 25%;
+    left: 7rem;
+  }
+  .concept2 {
+    max-width: 25%;
+    left: 28.5rem;
+  }
+  .concept3 {
+    max-width: 25%;
+    left: 50rem;
+  }
+}
+@media (max-width: 1091px) {
+  header {
+    width: 100%;
+    background-image: url(/image/hgghh-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+    overflow: hidden;
+  }
+  .header {
+    padding: 6rem 4rem 6rem 2rem;
+    max-width: 60%;
+    font-size: 40px;
+  }
+  .header h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    width: 100%;
+  }
+  .img1 {
+    width: 25%;
+    height: 60vh;
+    top: 16rem;
+    left: 4rem;
+  }
+  .img2 {
+    width: 25rem;
+    height: 65vh;
+    top: 25rem;
+    left: 23rem;
+  }
+  .img3 {
+    width: 20rem;
+    top: 45rem;
+    left: 13rem;
+  }
+  .img4 {
+    width: 18rem;
+    height: 25rem;
+    left: 30rem;
+  }
+  .texted {
+    top: 70rem;
+    left: 4rem;
+  }
+  .jimg {
+    /* width: 30rem; */
+    top: 5rem;
+    left: 8rem;
+  }
+  .rempty3 {
+    left: -12rem;
+  }
+  section {
+    width: 100%;
+    height: 220vh;
+    background: white;
+  }
+  .real {
+    width: 25rem;
+    left: 20rem;
+    top: 34rem;
+  }
+  .rempty {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 9rem;
+    top: 30rem;
+    left: 39rem;
+  }
+  .rempty1 {
+    left: 18rem;
+    top: 58rem;
+    width: 29rem;
+    height: 15rem;
+  }
+  .ven > p {
+    font-size: 18px;
+    max-width: 70%;
+    line-height: 1.5rem;
+  }
+  .concept1 {
+    max-width: 35%;
+    left: 2rem;
+  }
+  .concept2 {
+    max-width: 35%;
+    left: 29rem;
+  }
+  .concept3 {
+    max-width: 70%;
+    left: 10rem;
+    top: 38rem;
+  }
+  .we > p {
+    margin: 3rem 0 1rem 0;
+    font-size: 40px;
+    font-weight: 100;
+  }
+}
+@media (max-width: 845px) {
+  .h {
+    max-width: 70%;
+  }
+  .concept1 {
+    top: -13rem;
+    max-width: 70%;
+    left: 10rem;
+  }
+  .concept2 {
+    max-width: 70%;
+    left: 10rem;
+    top: 28rem;
+  }
+  .concept3 {
+    max-width: 70%;
+    left: 10rem;
+    top: 78rem;
+  }
+}
+@media (max-width: 777px) {
+  .header > p {
+    line-height: none;
+  }
+  .h {
+    max-width: 80%;
+  }
+  .decorating {
+    max-width: 55%;
+  }
+  .img1 {
+    width: 30%;
+    height: 60vh;
+    top: 16rem;
+    left: 1rem;
+  }
+  .img2 {
+    width: 45%;
+    height: 65vh;
+    top: 25rem;
+    left: 18rem;
+  }
+  .img3 {
+    width: 35%;
+    height: 25%;
+    top: 45rem;
+    left: 8rem;
+  }
+  .texted {
+    top: 70rem;
+    left: 1rem;
+    width: 40%;
+  }
+  .img4 {
+    width: 35%;
+    height: 23rem;
+    left: 22rem;
+  }
+  .jimg {
+    width: 60%;
+    top: 5rem;
+    left: 3rem;
+  }
+  .real {
+    width: 25rem;
+    left: 7rem;
+    top: 42rem;
+  }
+  .rempty3 {
+    top: 32rem;
+    left: -8rem;
+  }
+  .rempty3 > svg {
+    width: 30rem;
+    height: 30vh;
+    fill: #c1b688;
+  }
+  .rempty {
+    top: 39rem;
+    left: 26rem;
+  }
+  section {
+    width: 100%;
+    height: 240vh;
+    background: white;
+  }
+  .rempty1 {
+    left: 5rem;
+    top: 62rem;
+  }
+  .concept1 {
+    top: -13rem;
+    max-width: 70%;
+    left: 6rem;
+  }
+  .concept2 {
+    max-width: 70%;
+    left: 6rem;
+    top: 28rem;
+  }
+  .concept3 {
+    max-width: 70%;
+    left: 6rem;
+    top: 78rem;
+  }
+  .driven {
+    margin-bottom: 2rem;
+  }
+  header {
+    width: 100%;
+    height: 160vh;
+  }
+  .header h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+}
+/* responsiveness */
