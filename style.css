@@ -379,6 +379,10 @@ section {
   max-width: 50%;
   line-height: 1.5rem;
 }
+.concept-container1 {
+  width: 100%;
+  height: 140vh;
+}
 .concept-container {
   position: relative;
   padding-left: 2rem;
@@ -757,3 +761,101 @@ section {
   }
 }
 /* responsiveness */
+.section1{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  padding: 4rem;
+  gap: 3rem;
+}
+.img-int{
+  width: 100%;
+}
+.img-int>img{
+  width: 35rem;
+  height: 100vh;
+}
+.int :nth-child(1){
+  font-size: 400%;
+  font-weight: 100;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.int :nth-child(2){
+  line-height: 2rem;
+  font-size: 18px;
+}
+.img-int1{
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+.img-int1>img{
+  width: 25rem;
+  height: 70vh;
+  border-radius: 50%;
+}
+.intb1{
+  line-height: 2rem;
+  font-size: 18px;
+}
+.more{
+  width: 11rem;
+  border: 3px solid gainsboro;
+  color: black;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 30rem;
+}
+.intb1>a :hover{
+  background-color: gainsboro;
+}
+.create-container{
+  position: relative;
+}
+.create{
+  position: absolute;
+  top: -8rem;
+  max-width: 40%;
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 4rem;
+  z-index: 999;
+  padding: 4rem 2rem 4rem 2rem;
+}
+.cr{
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+.create :nth-child(2){
+  font-size: 22px;
+  margin-bottom: 5rem;
+}
+.create .te{
+  border: 2px solid #c1b688;
+  width: 40%;
+  text-align: center;
+  background-color: #c1b688;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-create{
+  width: 50rem;
+  position: absolute;
+  z-index: 10;
+  top: -23rem;
+  left: 23rem;
+}
+.img-create>img{
+  width: 50rem;
+  height: 100vh;
+}
+.ccc{
+  width: 30rem;
+  height: 120vh;
+  background-color: #C1B688;
+  position: absolute;
+  top: -27rem;
+  left: 46rem;
+}
