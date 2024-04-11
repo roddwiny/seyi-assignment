@@ -418,7 +418,7 @@ section {
   line-height: 2rem;
 }
 .mo {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   text-decoration: underline;
 }
 .mo > a {
@@ -761,44 +761,44 @@ section {
   }
 }
 /* responsiveness */
-.section1{
+.section1 {
   width: 100%;
   background-color: white;
   display: flex;
   padding: 4rem;
   gap: 3rem;
 }
-.img-int{
+.img-int {
   width: 100%;
 }
-.img-int>img{
+.img-int > img {
   width: 35rem;
   height: 100vh;
 }
-.int :nth-child(1){
+.int :nth-child(1) {
   font-size: 400%;
   font-weight: 100;
   padding: 1.5rem 0 1.5rem 0;
 }
-.int :nth-child(2){
+.int :nth-child(2) {
   line-height: 2rem;
   font-size: 18px;
 }
-.img-int1{
+.img-int1 {
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
-.img-int1>img{
+.img-int1 > img {
   width: 25rem;
   height: 70vh;
   border-radius: 50%;
 }
-.intb1{
+.intb1 {
   line-height: 2rem;
   font-size: 18px;
 }
-.more{
+.more {
   width: 11rem;
   border: 3px solid gainsboro;
   color: black;
@@ -806,13 +806,13 @@ section {
   margin-top: 2rem;
   margin-bottom: 30rem;
 }
-.intb1>a :hover{
+.intb1 > a :hover {
   background-color: gainsboro;
 }
-.create-container{
+.create-container {
   position: relative;
 }
-.create{
+.create {
   position: absolute;
   top: -8rem;
   max-width: 40%;
@@ -822,15 +822,15 @@ section {
   z-index: 999;
   padding: 4rem 2rem 4rem 2rem;
 }
-.cr{
-  font-size: 50px;
+.cr {
+  font-size: 300%;
   margin-bottom: 3rem;
 }
-.create :nth-child(2){
+.create :nth-child(2) {
   font-size: 22px;
   margin-bottom: 5rem;
 }
-.create .te{
+.create .te {
   border: 2px solid #c1b688;
   width: 40%;
   text-align: center;
@@ -840,22 +840,282 @@ section {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.img-create{
+.img-create {
   width: 50rem;
   position: absolute;
   z-index: 10;
   top: -23rem;
   left: 23rem;
 }
-.img-create>img{
+.img-create > img {
   width: 50rem;
   height: 100vh;
 }
-.ccc{
+.ccc {
   width: 30rem;
   height: 120vh;
-  background-color: #C1B688;
+  background-color: #c1b688;
   position: absolute;
   top: -27rem;
   left: 46rem;
+}
+@media (max-width: 1203px) {
+  .create {
+    left: -3rem;
+  }
+  .img-create {
+    left: 12rem;
+  }
+  .ccc {
+    left: 36rem;
+  }
+  .create .te {
+    width: 50%;
+  }
+}
+@media (max-width: 1091px) {
+  .section1 {
+    margin-top: 45rem;
+    display: block;
+    justify-content: center;
+    place-content: center;
+  }
+  .img-int > img {
+    width: 80%;
+  }
+  .int :nth-child(1) {
+    width: 80%;
+    font-size: 400%;
+    font-weight: 100;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+  .int :nth-child(2) {
+    max-width: 80%;
+  }
+  .img-int1 > img {
+    width: 65%;
+    height: 100vh;
+  }
+  .intb1 > p {
+    width: 80%;
+  }
+  .img-create {
+    width: 40rem;
+    left: 8rem;
+  }
+  .img-create > img {
+    width: 40rem;
+  }
+  .ccc {
+    left: 22rem;
+  }
+}
+@media (max-width: 913px) {
+  .create {
+    max-width: 50%;
+  }
+  .cr {
+    font-size: 250%;
+  }
+}
+@media (max-width: 845px) {
+  .section1 {
+    margin-top: 85rem;
+  }
+  .img-create {
+    width: 30rem;
+    left: 8rem;
+  }
+  .img-create > img {
+    width: 30rem;
+  }
+  .ccc {
+    width: 20rem;
+    height: 120vh;
+    left: 22rem;
+  }
+}
+@media (max-width: 1045px) {
+  .image-container {
+    width: 100%;
+    height: 270vh;
+  }
+}
+@media (max-width: 1015px) {
+  section {
+    width: 100%;
+    height: 240vh;
+  }
+}
+@media (max-width: 777px) {
+  section {
+    width: 100%;
+    height: 255vh;
+  }
+  .int :nth-child(1) {
+    font-size: 250%;
+  }
+  .create {
+    top: -6rem;
+  }
+  .img-create {
+    width: 25rem;
+    left: 8rem;
+  }
+  .img-create > img {
+    width: 25rem;
+  }
+  .ccc {
+    width: 18rem;
+    height: 120vh;
+    left: 18rem;
+    top: -26rem;
+  }
+}
+@media (max-width: 431px) {
+  header {
+    height: 120vh;
+  }
+  .header1 {
+    max-width: 30rem;
+    padding: 1rem;
+  }
+  .decorating {
+    max-width: 80%;
+  }
+  .img1 {
+    width: 50%;
+    top: 23rem;
+  }
+  .img2 {
+    width: 55%;
+  }
+  .img3 {
+    top: 60rem;
+    width: 50%;
+    height: 50vh;
+    left: 2.5rem;
+  }
+  .img4 {
+    width: 60%;
+    height: 60vh;
+    top: 65rem;
+  }
+  .texted {
+    width: 70%;
+    z-index: 999;
+  }
+  .jimg {
+    width: 70%;
+    height: 70vh;
+  }
+  .rempty3 {
+    left: 1.5rem;
+    top: 22rem;
+  }
+  .rempty3 > svg {
+    width: 8rem;
+    height: 8rem;
+  }
+  .rempty {
+    left: 16rem;
+    top: 28rem;
+  }
+  .real {
+    width: 80%;
+    left: 1.5rem;
+    top: 31rem;
+  }
+  .re {
+    font-size: 300%;
+  }
+  .real :nth-child(2) {
+    font-size: 20px;
+  }
+  .rempty1 {
+    width: 16rem;
+    left: 8.5rem;
+    top: 53rem;
+  }
+  .learnt p {
+    width: 40%;
+  }
+  .header {
+    max-width: 20rem;
+    padding: 4rem 1rem;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .we > p {
+    font-size: 200%;
+    padding: 0 4rem;
+  }
+  .img2 {
+    left: 10rem;
+  }
+  .img4 {
+    left: 8rem;
+  }
+  .img-create {
+    left: 1rem;
+  }
+  .concept1 {
+    top: -11rem;
+    left: 4rem;
+  }
+  .concept2 {
+    left: 4rem;
+    top: 23rem;
+  }
+  .concept3 {
+    left: 4rem;
+    top: 63rem;
+  }
+  .concept-container1 {
+    width: 100%;
+    height: 60vh;
+  }
+  .concept-container {
+    height: 110vh;
+  }
+  .img-int > img {
+    width: 20rem;
+    height: 70vh;
+  }
+  .int :nth-child(1) {
+    font-size: 200%;
+    width: 100%;
+  }
+  .int :nth-child(2) {
+    max-width: 100%;
+  }
+  .img-int1 > img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 50%;
+  }
+  .intb1 > p {
+    width: 100%;
+  }
+  .create {
+    max-width: 80%;
+    top: -8rem;
+  }
+  .img-create {
+    width: 15rem;
+    left: 2rem;
+  }
+  .img-create > img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .ccc {
+    left: 4rem;
+  }
+  .create .te {
+    width: 70%;
+  }
 }
